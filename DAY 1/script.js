@@ -79,3 +79,10 @@
 // TYPE CONVERSION
 // chnage the datatypes of a values to another (strings , numbers, boolean)
 
+// let age  = window.prompt("Age");
+// age = Number(age)
+// age+=1;
+// console.log(age, typeof age);
+
+
+
