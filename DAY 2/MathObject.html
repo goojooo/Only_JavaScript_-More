@@ -19,7 +19,7 @@
   </head>
   <body>
     <h1 id="myH1"></h1>
-    <button id="btn"></button>
+    <button id="btn">BUTTON</button>
     <script>
       //   let x = 3.55;
       //   let text = Math.round(x);
@@ -27,8 +27,17 @@
 
       // let rand = Math.random(); // 0 to 1 only
       // let rand = Math.floor(Math.random() * 6) + 1;
-      let rand = Math.floor(Math.random() * 100) + 1;
-      console.log(rand);
+    //   let rand = Math.floor(Math.random() * 100) + 1;
+    //   console.log(rand);
+    const myBtn = document.getElementById("btn"); 
+    const myH1 = document.getElementById("myH1");
+    const min = 1; 
+    const max = 100; 
+    let randomNum;
+    myBtn.onclick = function(){
+randomNum = Math.floor(Math.random() * max)+min;
+myH1.textContent = randomNum;
+    }
     </script>
   </body>
 </html>
