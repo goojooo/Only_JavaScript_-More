@@ -6,9 +6,28 @@
     <title>DAY 2</title>
 </head>
 <body>
+    <h1 id="myH1">Enter radius</h1>
+    <label for="">Radius</label>
+    <input type="text" id="myText">
+    <button id="myBtn">SUBMIT</button>
+    <h3 id="myH3"></h3>
     <script>
         // const = a variable that can't be changed
         
+        const PI = 3.1416;
+        let radius , circumference;
+
+        // radius = window.prompt("Enter radius");
+
+
+        // console.log(circumference);
+
+        document.getElementById("myBtn").onclick = function(){
+            radius = document.getElementById("myText").value;
+            radius = Number(radius);
+        circumference = 2 * PI * radius;
+                 document.getElementById("myH3").textContent = circumference + "cm";
+        }
     </script>
 </body>
 </html>
