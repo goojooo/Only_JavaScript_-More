@@ -1,11 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <input type="checkbox" name="" id="myC" />
+    <label for="myC">Subscribe</label>
+
+    <input type="radio" id="visa" name="card" />
+    <label for="visa">VISA</label>
+
+    <input type="radio" id="master" name="card" />
+    <label for="master">Master Card</label>
+
+    <input type="radio" id="upi" name="card" />
+    <label for="upi">UPI</label>
+
+    <button type="submit" id="submit">SUBMIT</button>
+
+    <p id="subR"></p>
+    <p id="payR"></p>
+
+    <script>
+      const myCheckBox = document.getElementById("myC");
+      const visaBtn = document.getElementById("visa");
+      const masterBtn = document.getElementById("master");
+      const upiBtn = document.getElementById("upi");
+      const myBtn = document.getElementById("submit");
+      const subR = document.getElementById("subR");
+      const payR = document.getElementById("payR");
+
+      myBtn.onclick = function () {
+        if (myCheckBox.checked) {
+          subR.textContent = "You are subscribed...";
+        } else {
+          subR.textContent = "You are not subscribed...";
+        }
+
+        if(visaBtn.checked){
+                payR.textContent = "You are paying with VISA..."
+        } else  if(masterBtn.checked){
+                payR.textContent = "You are paying with Master Card..."
+        } else  if(upiBtn.checked){
+                payR.textContent = "You are paying with UPI..."
+        } else {
+                payR.textContent = "You must select payment type..."
+
+        }
+      };
+    </script>
+  </body>
 </html>
