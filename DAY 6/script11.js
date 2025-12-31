@@ -12,7 +12,10 @@ let running = true;
 
 while(running){
 
-    // guess = window.prompt(`Guess a number between ${minNum} - ${maxNum} `)
-    console.log(typeof guess , guess)
+    guess = window.prompt(`Guess a number between ${minNum} - ${maxNum} `)
+    gues = Number(guess);
+    if(isNaN(guess)){
+        window.alert("Plea")
+    }
     running == false
 }
