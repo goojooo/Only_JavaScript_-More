@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Even Odd</title>
+</head>
+<body>
+    
+<h1 id="h1">The given number is : </h1>
+<label for="">Enter the number : </label>
+<input type="text" id="myText">
+<button id="sub">Submit</button>
+
+<script>
+let num;
+document.getElementById("sub").onclick = function(){
+num = document.getElementById("myText").value;
+if(num == 0){
+    document.getElementById("h1").textContent = `The given number is :  ${num} and its Zero...`
+} 
+else if(num % 2 == 0){
+    document.getElementById("h1").textContent = `The given number is :  ${num} and its EVEN...`
+}
+else{
+    document.getElementById("h1").textContent = `The given number is :  ${num} and its ODD...`
+}
+// console.log(userName);
+}
+</script>
+</body>
+</html>

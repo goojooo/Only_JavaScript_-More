@@ -1,0 +1,263 @@
+🧠 Rules for the Plan
+
+Solve 2–3 problems per day
+
+Write logic in plain English first
+
+Dry-run with sample values
+
+Code only after logic is clear
+
+No copy-paste solutions 🚫
+
+🟢 WEEK 1: Logic Foundations
+Day 1
+
+Check if a number is even or odd
+Hint: Use remainder when dividing by 2
+
+Find the largest of two numbers
+Hint: Compare using conditional statements
+
+Day 2
+
+Find the largest of three numbers
+Hint: Compare step-by-step, don’t overthink
+
+Check if a number is positive, negative, or zero
+Hint: Zero needs its own condition
+
+Day 3
+
+Swap two numbers without using a third variable
+Hint: Arithmetic or destructuring
+
+Convert Celsius to Fahrenheit
+Hint: Use the conversion formula
+
+Day 4
+
+Print numbers from 1 to N
+Hint: Loop starting from 1
+
+Print even numbers from 1 to N
+Hint: Combine loop + condition
+
+Day 5
+
+Find the sum of first N natural numbers
+Hint: Use loop or mathematical formula
+
+Find factorial of a number
+Hint: Factorial means multiplication, not addition
+
+Day 6
+
+Count digits in a number
+Hint: Reduce the number step by step
+
+Reverse a number
+Hint: Extract last digit repeatedly
+
+Day 7
+
+Check if a year is a leap year
+Hint: Divisibility rules matter
+
+Check if a number is divisible by 5 and 11
+Hint: Use logical AND
+
+🟡 WEEK 2: Loops & Conditions Mastery
+Day 8
+
+Check if a number is a palindrome
+Hint: Compare original and reversed value
+
+Sum of digits of a number
+Hint: Use modulo and division
+
+Day 9
+
+Check if a number is Armstrong
+Hint: Power of digits depends on digit count
+
+Print Fibonacci series
+Hint: Each number depends on previous two
+
+Day 10
+
+Check if a number is prime
+Hint: Stop checking at square root
+
+Print all primes from 1 to N
+Hint: Reuse prime logic
+
+Day 11
+
+Find GCD of two numbers
+Hint: Keep reducing the larger number
+
+Find LCM of two numbers
+Hint: Relationship between GCD and LCM
+
+Day 12
+
+Print multiplication table
+Hint: Fix one number, loop the other
+
+Power of a number without Math.pow
+Hint: Multiply repeatedly
+
+Day 13
+
+Count even and odd numbers from 1 to N
+Hint: Two counters
+
+Check if character is vowel or consonant
+Hint: Compare with vowel list
+
+Day 14
+
+Calculate simple interest
+Hint: Use formula
+
+Grade system using marks
+Hint: Use range-based conditions
+
+🟠 WEEK 3: Arrays & Strings
+Day 15
+
+Find largest element in an array
+Hint: Assume first element is largest
+
+Find smallest element in an array
+Hint: Same logic, opposite condition
+
+Day 16
+
+Sum and average of array elements
+Hint: Loop + accumulator
+
+Count even and odd in array
+Hint: Check each element
+
+Day 17
+
+Reverse an array
+Hint: Two-pointer approach
+
+Find second largest element
+Hint: Track two values
+
+Day 18
+
+Check if array is sorted
+Hint: Compare adjacent elements
+
+Count occurrences of an element
+Hint: Use a counter
+
+Day 19
+
+Remove duplicates from array
+Hint: Check before inserting
+
+Rotate array by K positions
+Hint: Think in segments
+
+Day 20
+
+Reverse a string
+Hint: Strings behave like arrays
+
+Check string palindrome
+Hint: Compare start and end
+
+Day 21
+
+Count vowels and consonants
+Hint: Ignore spaces
+
+Count words in a sentence
+Hint: Words are separated by spaces
+
+🔴 WEEK 4: Advanced Logic & Real Problems
+Day 22
+
+Find longest word in a sentence
+Hint: Track max length
+
+Check if two strings are anagrams
+Hint: Same characters, same count
+
+Day 23
+
+Print star patterns
+Hint: Nested loops
+
+Print number patterns
+Hint: Observe rows vs columns
+
+Day 24
+
+Find missing number from 1 to N
+Hint: Sum formula
+
+Find duplicate elements
+Hint: Compare or track seen values
+
+Day 25
+
+Character frequency in string
+Hint: Use an object/map
+
+First non-repeating character
+Hint: Count first, then check order
+
+Day 26
+
+Merge two sorted arrays
+Hint: Two pointers
+
+Longest increasing subsequence (basic)
+Hint: Compare neighbors first
+
+Day 27
+
+Simple calculator using switch
+Hint: Operator decides logic
+
+Password validation
+Hint: Break rules into checks
+
+Day 28
+
+Login system with limited attempts
+Hint: Counter + loop
+
+Number guessing game
+Hint: Compare user input with random number
+
+Day 29
+
+Menu-driven program
+Hint: Loop until exit
+
+Find pair with given sum
+Hint: Two loops or smart tracking
+
+Day 30
+
+Mini project: To-Do List logic
+Hint: Store tasks in array
+
+Mini project: Student result system
+Hint: Use objects + conditions
+
+🚀 Final Advice
+
+Logic > Syntax
+
+Bugs = learning points
+
+Struggle = growth

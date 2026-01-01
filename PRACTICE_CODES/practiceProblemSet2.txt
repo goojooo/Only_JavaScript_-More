@@ -1,0 +1,144 @@
+👉 Rule for you:
+Try solving without looking up solutions. If stuck for 10–15 minutes, break the problem into smaller steps.
+
+🟢 LEVEL 1: Basics (Logic Warm-Up)
+
+Check whether a number is even or odd
+
+Find the largest of two numbers
+
+Find the largest of three numbers
+
+Check if a number is positive, negative, or zero
+
+Swap two numbers without using a third variable
+
+Check if a year is a leap year
+
+Convert Celsius to Fahrenheit
+
+Convert minutes into hours and minutes
+
+Check if a character is a vowel or consonant
+
+Print numbers from 1 to N
+
+Print even numbers from 1 to N
+
+Find the sum of first N natural numbers
+
+Find the factorial of a number
+
+Check if a number is divisible by 5 and 11
+
+Reverse a number
+
+🟡 LEVEL 2: Conditionals & Loops
+
+Check if a number is a palindrome
+
+Check if a number is an Armstrong number
+
+Count the number of digits in a number
+
+Find the sum of digits of a number
+
+Print Fibonacci series up to N terms
+
+Find the greatest common divisor (GCD)
+
+Find the least common multiple (LCM)
+
+Print a multiplication table of a number
+
+Count even and odd numbers between 1 and N
+
+Check if a number is prime
+
+Print all prime numbers between 1 and N
+
+Find the power of a number without using Math.pow()
+
+Check whether a character is uppercase or lowercase
+
+Calculate simple interest
+
+Find the grade of a student based on marks
+
+🟠 LEVEL 3: Arrays & Strings
+
+Find the largest element in an array
+
+Find the smallest element in an array
+
+Calculate the sum and average of array elements
+
+Count how many even and odd numbers are in an array
+
+Reverse an array
+
+Find the second largest element in an array
+
+Check if an array is sorted
+
+Remove duplicate elements from an array
+
+Count occurrences of an element in an array
+
+Find the index of an element in an array
+
+Reverse a string
+
+Check if a string is a palindrome
+
+Count vowels and consonants in a string
+
+Find the number of words in a sentence
+
+Find the longest word in a sentence
+
+🔴 LEVEL 4: Logical & Pattern Problems
+
+Print a right-angled triangle star pattern
+
+Print a pyramid pattern
+
+Print a number triangle pattern
+
+Find missing number in an array of 1 to N
+
+Find the first non-repeating character in a string
+
+Check if two strings are anagrams
+
+Rotate an array by K positions
+
+Merge two sorted arrays
+
+Find duplicate elements in an array
+
+Count frequency of each character in a string
+
+🔵 LEVEL 5: Advanced Logical Thinking
+
+Implement a simple calculator using switch case
+
+Simulate a login system with limited attempts
+
+Find the longest increasing subsequence (basic logic version)
+
+Validate a password using rules (length, number, special char)
+
+Build a number guessing game (user vs system)
+
+🧠 How to Use This List (Very Important)
+
+Solve 5 problems daily
+
+Write logic in plain English first
+
+Then convert it into code
+
+Dry-run your code with examples
+
+Improve it after it works
