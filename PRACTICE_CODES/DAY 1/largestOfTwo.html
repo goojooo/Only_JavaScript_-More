@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find the largest of two numbers.</title>
+</head>
+<body>
+    <h1 id="h1">The largest of two numbers : </h1>
+    <label for="">Enter the value os X</label>
+    <input type="text" id="x">
+    <label for="">Enter the value os Y</label>
+    <input type="text" id="y">
+    <button id="check">SUMBIT</button>
+    <script>
+        let x;
+        let y;
+        document.getElementById("check").onclick = function(){
+        x = Number(document.getElementById("x").value);
+        y = Number(document.getElementById("y").value);
+        if(x > y){
+            document.getElementById("h1").textContent = `X = ${x} , is greater than y = ${y}`;
+        } else if(y > x){
+            document.getElementById("h1").textContent = `Y = ${y} , is greater than x = ${x}`
+        } else if(x == y){
+            document.getElementById("h1").textContent = `Both are equals X = Y || ${x} == ${y} `;
+        } else{
+            document.getElementById("h1").textContent = "Enter valid inputs...";
+        }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Find the largest of tthree numbers.</title>
+  </head>
+  <body>
+    <h1 id="h1">The largest of three numbers :</h1>
+    <label for="">Enter the value os X</label>
+    <input type="text" id="x" />
+    <label for="">Enter the value os Y</label>
+    <input type="text" id="y" />
+    <label for="">Enter the value os Z</label>
+    <input type="text" id="z" />
+    <button id="check">SUMBIT</button>
+    <script>
+      let x;
+      let y;
+      let z;
+      document.getElementById("check").onclick = function () {
+        x = Number(document.getElementById("x").value);
+        y = Number(document.getElementById("y").value);
+        z = Number(document.getElementById("z").value);
+        if (x > y && x > z) {
+          document.getElementById(
+            "h1"
+          ).textContent = `X = ${x} , is greater than y = ${y} and z = ${z}`;
+        } else if (y > x && y > z) {
+          document.getElementById(
+            "h1"
+          ).textContent = `Y = ${y} , is greater than x = ${x} and z = ${z}`;
+        } else if (z > x && z > y) {
+          document.getElementById(
+            "h1"
+          ).textContent = `Z = ${z} , is greater than x = ${x} and y = ${y}`;
+        } else if (x == y && x == z && y == z ) {
+          document.getElementById(
+            "h1"
+          ).textContent = `All are equals X = Y == Z || ${x} == ${y} == ${z} `;
+        } else {
+          document.getElementById("h1").textContent = "Enter valid inputs...";
+        }
+      };
+    </script>
+  </body>
+</html>
