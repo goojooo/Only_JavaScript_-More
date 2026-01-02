@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Check number is positive or negative</title>
+  </head>
+  <body>
+    <section>
+      <h1 id="h1">Enter number :</h1>
+      <input type="text" id="number" />
+      <input type="submit" id="send" />
+    </section>
+    <script>
+      let num;
+      document.getElementById("send").onclick = function () {
+        num = document.getElementById("number").value;
+        if (num >= 1) {
+          document.getElementById("h1").textContent = `The number is positive`;
+        } else if (num == 0) {
+          document.getElementById("h1").textContent = `The number is ZERO`;
+        } else {
+          document.getElementById("h1").textContent = `The number is negative`;
+        }
+      };
+    </script>
+  </body>
+</html>
