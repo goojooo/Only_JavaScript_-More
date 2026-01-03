@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Convert minutes into hours and minutes</title>
+  </head>
+  <body>
+    <section>
+      <h1 id="h1"></h1>
+      <input type="text" id="myInput" />
+      <input type="submit" id="send" />
+    </section>
+    <script>
+      let originalMin;
+      let hour;
+      document.getElementById("send").onclick = function () {
+        originalMin = document.getElementById("myInput").value;
+        hour = originalMin / 60;
+        document.getElementById("h1").textContent = `The given input minutes : ${originalMin}min and convert in to hour ${(hour)}hour `;
+        // document.getElementById("h1").textContent = `The given input minutes : ${min}min and convert in to hour ${hours}hour ${min}min `;
+        // if (min / 60) {
+        //   hours++;
+        //   min = min - 60;
+        //   document.getElementById("h1").textContent = `The given input minutes : ${min}min and convert in to hour ${hours}hour ${min}min `;
+        // } else{
+        //   document.getElementById("h1").textContent = `Enter valid input `;
+
+        // }
+      };
+    </script>
+  </body>
+</html>

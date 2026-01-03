@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convert Celsius to Fahrenheit</title>
+</head>
+<body>
+    <section>
+        <h1 id="h1"></h1>
+        <input type="text" id="myInput">
+        <input type="submit" id="send">
+    </section>
+    <script>
+        let celsius;
+        let fahrenheit;
+        document.getElementById("send").onclick = function(){
+            celsius = document.getElementById("myInput").value;
+            fahrenheit = celsius * (9 / 5) + 32; // Formula 
+            document.getElementById("h1").textContent = `The conversion of Celsisus : ${celsius} to Fahrenheit : ${fahrenheit}`
+        }
+    </script>
+</body>
+</html>

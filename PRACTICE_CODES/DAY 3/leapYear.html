@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check if a year is a leap year</title>
+</head>
+<body>
+    <section>
+        <h1 id="h1"></h1>
+        <input type="text" id="text">
+        <input type="submit" name="" id="send">
+    </section>
+    <script>
+        let year;
+        document.getElementById("send").onclick = function(){
+            year = document.getElementById("text").value;
+            if(year % 4 == 0){
+                document.getElementById("h1").textContent = `The given year is Leap year : ${year}`;
+            } else{
+                document.getElementById("h1").textContent = `The given year is not Leap year : ${year}`;
+
+            }
+        }
+    </script>
+</body>
+</html>
