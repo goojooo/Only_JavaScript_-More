@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Print numbers from 1 to N</title>
+  </head>
+  <body>
+    <section>
+      <h1 id="h1"></h1>
+      <input type="text" id="myInput" />
+      <input type="submit" id="send" />
+    </section>
+    <script>
+      let num;
+      document.getElementById("send").onclick = function () {
+        num = document.getElementById("myInput").value;
+        for (let i = 1; i <= num; i++) {
+          document.getElementById("h1").textContent += i + " ";
+        }
+        // for (let i = 1; i <= num; i++) {
+        //   document.getElementById("h1").textContent = i;
+        //     console.log(i)
+        // }
+        // let i;
+        // while(i <= num){
+        //     document.getElementById("h1").textContent += i + " ";
+        //     // console.log(i);
+        //     i++; 
+        // }
+      };
+    </script>
+  </body>
+</html>

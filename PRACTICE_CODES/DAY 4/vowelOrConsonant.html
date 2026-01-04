@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Check if a character is a vowel or consonant</title>
+  </head>
+  <body>
+    <section>
+      <h1 id="h1">The given charecter is :</h1>
+      <input type="text" id="myInput" />
+      <input type="submit" id="send" />
+    </section>
+    <script>
+      let character;
+      document.getElementById("send").onclick = function () {
+        character = document.getElementById("myInput").value;
+        // if (
+        //   character == "a" ||
+        //   character == "e" ||
+        //   character == "i" ||
+        //   character == "o" ||
+        //   character == "u" ||
+        //   character == "A" ||
+        //   character == "E" ||
+        //   character == "I" ||
+        //   character == "O" ||
+        //   character == "U"
+        // ) {
+        //   document.getElementById(
+        //     "h1"
+        //   ).textContent = `The given charecter is : VOWEL : ${character}`;
+        // } else {
+        //   document.getElementById(
+        //     "h1"
+        //   ).textContent = `The given charecter is : CONSONANT : ${character}`;
+        // }
+        let vowel = "aeiouAEIOU";
+        if(vowel.includes(character)){
+             document.getElementById(
+            "h1"
+          ).textContent = `The given charecter is : VOWEL : ${character}`;
+        }
+        else{
+            document.getElementById(
+                    "h1"
+                  ).textContent = `The given charecter is : CONSONANT : ${character}`; 
+        }
+      };
+    </script>
+  </body>
+</html>
