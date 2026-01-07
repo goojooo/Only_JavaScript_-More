@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Find the sum of first N natural numbers</title>
+  </head>
+  <body>
+    <section>
+      <h1 id="h1"></h1>
+      <input type="text" id="myText" />
+      <input type="submit" id="send" />
+    </section>
+    <script>
+      let num;
+      let sum = 0;
+      document.getElementById("send").onclick = function () {
+        num = document.getElementById("myText").value;
+        for (let i = 1; i <= num; i++) 
+        {
+            sum += i;
+            document.getElementById("h1").textContent = sum;
+        }
+      };
+    </script>
+  </body>
+</html>

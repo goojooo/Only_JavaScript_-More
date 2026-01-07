@@ -1,0 +1,229 @@
+🟦 TCS (NQT / Digital / Ninja)
+🔑 Focus
+
+Basics + Logic
+
+Arrays, Strings, Numbers
+
+Less DSA, more correctness
+
+🔥 Frequently Asked Questions
+
+Check if a number is prime.
+
+Reverse a number.
+
+Check palindrome number / string.
+
+Count vowels in a string.
+
+Remove spaces from a string.
+
+Find largest element in an array.
+
+Find second largest element.
+
+Sort an array.
+
+Find missing number in array.
+
+Check leap year.
+
+Armstrong number.
+
+Fibonacci series.
+
+Sum of digits.
+
+Swap two numbers without third variable.
+
+Pattern printing (stars / numbers).
+
+⭐ Patterns used: Basic loops, Arrays, Strings, Two pointers (basic)
+
+🟦 Infosys (InfyTQ / SP / DSE)
+🔑 Focus
+
+Clean logic
+
+Problem solving
+
+Slightly better DSA than TCS
+
+🔥 Frequently Asked Questions
+
+Longest substring without repeating characters. (Sliding window)
+
+Two sum problem. (Hashing)
+
+Find first non-repeating character.
+
+Check if two strings are anagrams.
+
+Reverse words in a sentence.
+
+Move zeros to end of array.
+
+Find duplicate element.
+
+Binary search.
+
+Find equilibrium index.
+
+Subarray with given sum.
+
+Remove duplicates from sorted array.
+
+Check balanced parentheses.
+
+Count frequency of characters.
+
+Fibonacci using recursion.
+
+Find GCD of two numbers.
+
+⭐ Patterns used: Sliding window, HashMap, Binary search, Stack
+
+🟦 Wipro (Elite / Turbo)
+🔑 Focus
+
+Arrays + Strings
+
+Slight optimization
+
+Pattern recognition
+
+🔥 Frequently Asked Questions
+
+Rotate array by K positions.
+
+Find second smallest element.
+
+Reverse string without built-in functions.
+
+Find pair with given sum.
+
+Check palindrome ignoring special characters.
+
+Find longest word in a string.
+
+Find missing & repeating number.
+
+Remove duplicate characters from string.
+
+Sort array of 0s, 1s, and 2s.
+
+Majority element.
+
+Subarray sum equals K.
+
+Binary search in rotated array.
+
+Check if array is sorted.
+
+Pattern printing (complex).
+
+Find minimum difference between elements.
+
+⭐ Patterns used: Two pointers, Hashing, Sorting, Binary search
+
+🟦 Accenture
+🔑 Focus
+
+Strong logic
+
+Scenario-based problems
+
+Arrays & strings heavy
+
+🔥 Frequently Asked Questions
+
+Maximum sum subarray of size K.
+
+Longest palindrome substring.
+
+Count number of words in a string.
+
+Replace vowels with special character.
+
+Find leader elements in array.
+
+Move all negative numbers to one side.
+
+Find intersection of two arrays.
+
+Find common characters in two strings.
+
+Check if string rotation.
+
+Find duplicate numbers.
+
+Find longest consecutive sequence.
+
+Reverse array in groups.
+
+Find missing number.
+
+Count frequency of elements.
+
+Simple ATM simulation program.
+
+⭐ Patterns used: Sliding window, HashMap, Arrays, Logic simulation
+
+🟦 Capgemini
+🔑 Focus
+
+Pattern-based DSA
+
+More reasoning than others
+
+Medium-level problems
+
+🔥 Frequently Asked Questions
+
+Longest substring with at most K distinct characters.
+
+Find all anagrams in a string.
+
+Product of array except self.
+
+Container with most water.
+
+Trapping rain water.
+
+Find pivot index.
+
+Search in rotated sorted array.
+
+Merge overlapping intervals.
+
+Valid parentheses.
+
+Next greater element.
+
+Stock buy & sell.
+
+Remove duplicates in unsorted array.
+
+Find subarrays with sum divisible by K.
+
+Longest consecutive sequence.
+
+Top K frequent elements.
+
+⭐ Patterns used: Sliding window, Two pointers, Stack, Prefix sum
+
+📊 Difficulty Comparison
+Company	Level
+TCS	Easy
+Wipro	Easy–Medium
+Infosys	Medium
+Accenture	Medium
+Capgemini	Medium–High
+🎯 How to Prepare SMARTLY
+
+TCS / Wipro → Basics + Logic
+
+Infosys / Accenture → Sliding Window + Hashing
+
+Capgemini → Two pointers + Stack + Prefix Sum

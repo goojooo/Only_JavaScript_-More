@@ -1,0 +1,163 @@
+🧑‍💻 MOCK INTERVIEW – ROUND 1 (Basics + Logic)
+Q1. What is the difference between == and ===?
+
+Answer:
+== checks only value and does type conversion.
+=== checks both value and data type.
+Example:
+"5" == 5 → true
+"5" === 5 → false
+
+Q2. How do you check if a number is prime?
+
+Answer:
+A number is prime if it has exactly two factors: 1 and itself.
+We check divisibility from 2 to √n.
+If any number divides it, it’s not prime.
+
+Q3. What is time complexity?
+
+Answer:
+Time complexity describes how execution time grows with input size.
+Common ones are O(1), O(n), O(n²), O(log n).
+
+Q4. Difference between array and string?
+
+Answer:
+An array can store multiple values of same data type.
+A string stores characters and is usually immutable.
+
+Q5. What is recursion?
+
+Answer:
+Recursion is a function calling itself with a smaller problem until a base case is reached.
+
+🧠 MOCK INTERVIEW – ROUND 2 (Arrays & Strings)
+Q6. Reverse an array without using extra space.
+
+Answer:
+Use two pointers:
+One at start, one at end, swap elements, move inward.
+
+Q7. Find the second largest element in an array.
+
+Answer:
+Traverse once while maintaining largest and secondLargest.
+Time: O(n), Space: O(1).
+
+Q8. How do you check if a string is a palindrome?
+
+Answer:
+Compare characters from start and end using two pointers.
+If all match, it’s a palindrome.
+
+Q9. Remove duplicate characters from a string.
+
+Answer:
+Use a frequency map or set to track seen characters and build a new string.
+
+Q10. Move all zeros to the end of the array.
+
+Answer:
+Use two pointers.
+One pointer tracks position for non-zero elements.
+
+🚀 MOCK INTERVIEW – ROUND 3 (DSA Patterns)
+Q11. Explain the Two Pointer technique.
+
+Answer:
+Two pointers move through data from different directions to reduce time complexity.
+Used in searching, reversing, pair-sum problems.
+
+Q12. What is the Sliding Window technique?
+
+Answer:
+It maintains a window over a range of elements and slides it to avoid recalculations.
+Used for subarray/substring problems.
+
+Q13. Find maximum sum subarray of size K.
+
+Answer:
+Calculate sum of first K elements.
+Slide window by subtracting first element and adding next.
+Time: O(n).
+
+Q14. What is hashing and where is it used?
+
+Answer:
+Hashing stores key-value pairs for fast lookup.
+Used in frequency counting, two-sum, duplicates detection.
+
+Q15. Find two numbers whose sum equals target.
+
+Answer:
+Use a hash set.
+For each element x, check if target - x exists.
+
+🧩 MOCK INTERVIEW – ROUND 4 (Binary Search & Stack)
+Q16. When do you use Binary Search?
+
+Answer:
+When data is sorted or search space can be reduced.
+Time complexity: O(log n).
+
+Q17. Search in a rotated sorted array.
+
+Answer:
+Use modified binary search.
+Check which half is sorted and decide where to search.
+
+Q18. What is a stack?
+
+Answer:
+Stack is a LIFO data structure.
+Operations: push, pop, peek.
+
+Q19. Check if parentheses are balanced.
+
+Answer:
+Use stack.
+Push opening brackets, pop when closing appears.
+If stack empty at end → balanced.
+
+Q20. Difference between Stack and Queue?
+
+Answer:
+Stack → LIFO
+Queue → FIFO
+
+🧪 MOCK INTERVIEW – ROUND 5 (HR + Problem Solving)
+Q21. How do you approach a new coding problem?
+
+Answer:
+
+Understand problem
+
+Think brute force
+
+Optimize using patterns
+
+Analyze complexity
+
+Code and test
+
+Q22. What if you don’t know the solution?
+
+Answer:
+I explain my thought process, try partial solution, and ask clarifying questions.
+
+Q23. What programming languages do you know?
+
+Answer:
+Mention one strong language, not many.
+Example: “I am strong in JavaScript and familiar with Java.”
+
+Q24. Why should we hire you?
+
+Answer:
+I have strong fundamentals, good problem-solving skills, and I’m a fast learner.
+
+Q25. Any questions for us?
+
+Answer:
+Yes, ask about learning opportunities or team structure.

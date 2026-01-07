@@ -1,0 +1,187 @@
+🟦 TCS MOCK INTERVIEW (NQT / Ninja / Digital)
+Focus
+
+Basics, logic, clarity, confidence
+
+Q1. Check whether a number is an Armstrong number.
+
+Answer:
+An Armstrong number is a number where the sum of each digit raised to the power of number of digits equals the number itself.
+Example: 153 → 1³ + 5³ + 3³ = 153.
+
+Q2. Difference between for loop and while loop?
+
+Answer:
+for loop is used when number of iterations is known.
+while loop is used when iterations depend on a condition.
+
+Q3. Reverse a string without built-in functions.
+
+Answer:
+Use a loop or two-pointer approach and swap characters.
+
+Q4. What is an array?
+
+Answer:
+An array is a collection of elements of the same data type stored in contiguous memory locations.
+
+Q5. Find the largest element in an array.
+
+Answer:
+Traverse the array and keep track of the maximum value.
+
+⭐ Tip for TCS:
+Explain slowly, don’t rush. Logic > optimization.
+
+🟦 Infosys MOCK INTERVIEW (InfyTQ / SP / DSE)
+Focus
+
+DSA patterns + clean explanation
+
+Q1. Longest substring without repeating characters.
+
+Answer:
+Use sliding window + hash set.
+Expand window until duplicate appears, then shrink.
+Time complexity: O(n).
+
+Q2. What is hashing?
+
+Answer:
+Hashing maps keys to values for fast lookup, usually O(1) average time.
+
+Q3. Two Sum problem.
+
+Answer:
+Use a HashMap.
+For each element x, check if target - x exists.
+
+Q4. Difference between Stack and Heap memory.
+
+Answer:
+Stack stores function calls and local variables.
+Heap stores dynamically allocated objects.
+
+Q5. Reverse words in a sentence.
+
+Answer:
+Split sentence into words, reverse order, and join back.
+
+⭐ Tip for Infosys:
+Always mention time & space complexity.
+
+🟦 Wipro MOCK INTERVIEW (Elite / Turbo)
+Focus
+
+Arrays + strings + optimization
+
+Q1. Rotate an array by K positions.
+
+Answer:
+Reverse whole array, then reverse first K elements and remaining elements.
+
+Q2. Check if a string is palindrome ignoring special characters.
+
+Answer:
+Use two pointers, skip non-alphanumeric characters.
+
+Q3. Find second smallest element in array.
+
+Answer:
+Maintain smallest and second smallest while traversing.
+
+Q4. What is Big-O notation?
+
+Answer:
+It represents worst-case time complexity of an algorithm.
+
+Q5. Sort an array of 0s, 1s, and 2s.
+
+Answer:
+Use Dutch National Flag algorithm (three pointers).
+
+⭐ Tip for Wipro:
+They like clean logic with fewer loops.
+
+🟦 Accenture MOCK INTERVIEW
+Focus
+
+Problem solving + real-life scenarios
+
+Q1. Maximum sum subarray of size K.
+
+Answer:
+Use sliding window.
+Add next element, remove previous element.
+Time: O(n).
+
+Q2. Find leader elements in an array.
+
+Answer:
+Traverse from right, keep track of maximum so far.
+
+Q3. Count frequency of characters in a string.
+
+Answer:
+Use HashMap or frequency array.
+
+Q4. What is SDLC?
+
+Answer:
+SDLC is Software Development Life Cycle:
+Requirement → Design → Development → Testing → Deployment → Maintenance.
+
+Q5. ATM program logic (withdrawal).
+
+Answer:
+Check balance → validate amount → deduct → update balance.
+
+⭐ Tip for Accenture:
+They check logical thinking more than DSA depth.
+
+🟦 Capgemini MOCK INTERVIEW
+Focus
+
+Pattern-based DSA + reasoning
+
+Q1. Container With Most Water.
+
+Answer:
+Use two pointers from both ends.
+Move the pointer with smaller height.
+Time: O(n).
+
+Q2. Trapping Rain Water.
+
+Answer:
+Use two pointers or prefix max arrays.
+Water = min(leftMax, rightMax) − height.
+
+Q3. Valid Parentheses.
+
+Answer:
+Use stack.
+Push opening brackets, pop for closing ones.
+
+Q4. Longest substring with at most K distinct characters.
+
+Answer:
+Sliding window + HashMap to track frequency.
+
+Q5. Why Binary Search is O(log n)?
+
+Answer:
+Because the search space is reduced by half in each step.
+
+⭐ Tip for Capgemini:
+Explain why the approach works, not just how.
+
+🧠 FINAL INTERVIEW ADVICE
+
+Speak your thought process
+
+Don’t jump straight to code
+
+Patterns matter more than syntax
+
+One strong language is enough

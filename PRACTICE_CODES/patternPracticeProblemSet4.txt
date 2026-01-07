@@ -1,0 +1,287 @@
+🔥 1. Two Pointers Pattern (VERY COMMON)
+
+Used when working with arrays / strings, usually sorted.
+
+Reverse an array.
+
+Check if a string is a palindrome.
+
+Find pair with given sum in a sorted array.
+
+Remove duplicates from sorted array.
+
+Move all zeros to the end.
+
+Square of sorted array (sorted squares).
+
+Merge two sorted arrays.
+
+Find pair whose sum is closest to target.
+
+Container With Most Water.
+
+Trapping Rain Water.
+
+Sort colors (0s, 1s, 2s).
+
+Valid palindrome after removing at most one character.
+
+Remove element in-place.
+
+3Sum problem.
+
+4Sum problem.
+
+⭐ Frequently asked: 2, 3, 5, 9, 10, 11, 14
+
+🔥 2. Sliding Window Pattern (TOP INTERVIEW FAVORITE)
+
+Used for subarray / substring problems.
+
+Maximum sum subarray of size K.
+
+Smallest subarray with sum ≥ S.
+
+Longest substring with no repeating characters.
+
+Longest substring with at most K distinct characters.
+
+Longest substring after replacing K characters.
+
+Maximum number of vowels in a substring of size K.
+
+Find all anagrams of a string.
+
+Permutation in a string.
+
+Longest subarray of 1s after replacing at most K 0s.
+
+Minimum window substring.
+
+Count subarrays with given sum.
+
+Maximum average subarray.
+
+Fruits into baskets.
+
+Longest repeating character replacement.
+
+Subarrays with product less than K.
+
+⭐ Frequently asked: 1, 3, 7, 8, 10, 15
+
+🔥 3. Hashing / Frequency Map Pattern
+
+Used to optimize brute-force solutions.
+
+Two Sum.
+
+Count frequency of elements.
+
+First non-repeating character.
+
+Find duplicates in an array.
+
+Group anagrams.
+
+Subarray sum equals K.
+
+Longest consecutive sequence.
+
+Intersection of two arrays.
+
+Check if two strings are anagrams.
+
+Majority element.
+
+Top K frequent elements.
+
+Isomorphic strings.
+
+Happy number.
+
+Find all duplicates.
+
+Longest palindrome that can be built.
+
+⭐ Frequently asked: 1, 3, 5, 6, 7, 10, 11
+
+🔥 4. Prefix Sum Pattern
+
+Used when range queries or repeated sum calculations appear.
+
+Range sum query.
+
+Subarray sum equals K.
+
+Maximum size subarray with sum K.
+
+Product of array except self.
+
+Find pivot index.
+
+Continuous subarray sum.
+
+Maximum sum circular subarray.
+
+Check if array can be split into equal sum parts.
+
+Find equilibrium index.
+
+Count subarrays with equal number of 0s and 1s.
+
+Subarray with sum divisible by K.
+
+Maximum absolute sum of subarray.
+
+Running sum of array.
+
+Minimum value to make prefix sum non-negative.
+
+Sum of all subarrays.
+
+⭐ Frequently asked: 2, 4, 5, 6, 10, 11
+
+🔥 5. Recursion Pattern (Logic Builder)
+
+Used to test thinking & base cases.
+
+Print numbers from 1 to N.
+
+Print numbers from N to 1.
+
+Factorial of a number.
+
+Fibonacci number.
+
+Sum of digits.
+
+Reverse a number.
+
+Check palindrome.
+
+Power of a number.
+
+Count digits.
+
+Tower of Hanoi.
+
+Generate all subsets.
+
+Generate permutations.
+
+Binary search using recursion.
+
+Check sorted array.
+
+Remove adjacent duplicates.
+
+⭐ Frequently asked: 3, 4, 10, 11, 12
+
+🔥 6. Binary Search Pattern (VERY IMPORTANT)
+
+Used when search space can be reduced.
+
+Binary search in sorted array.
+
+First and last occurrence of an element.
+
+Search in rotated sorted array.
+
+Find minimum in rotated sorted array.
+
+Peak element.
+
+Square root of a number.
+
+Search insert position.
+
+Find element in infinite sorted array.
+
+Allocate minimum number of pages.
+
+Aggressive cows problem.
+
+Koko eating bananas.
+
+Find smallest divisor.
+
+Capacity to ship packages.
+
+Median of two sorted arrays.
+
+Find single element in sorted array.
+
+⭐ Frequently asked: 1, 2, 3, 6, 9, 11, 14
+
+🔥 7. Stack Pattern
+
+Used for previous/next element problems.
+
+Valid parentheses.
+
+Next greater element.
+
+Previous smaller element.
+
+Stock span problem.
+
+Largest rectangle in histogram.
+
+Min stack.
+
+Evaluate postfix expression.
+
+Reverse a stack.
+
+Sort a stack.
+
+Daily temperatures.
+
+Remove adjacent duplicates.
+
+Decode string.
+
+Asteroid collision.
+
+Simplify path.
+
+Trapping rain water (stack approach).
+
+⭐ Frequently asked: 1, 2, 4, 5, 10, 15
+
+🔥 8. Greedy Pattern
+
+Used when local optimal → global optimal.
+
+Activity selection.
+
+Minimum number of platforms.
+
+Job sequencing problem.
+
+Fractional knapsack.
+
+Jump game.
+
+Gas station.
+
+Candy distribution.
+
+Lemonade change.
+
+Assign cookies.
+
+Meeting rooms.
+
+Minimum arrows to burst balloons.
+
+Valid parentheses string.
+
+Non-overlapping intervals.
+
+Partition labels.
+
+Best time to buy and sell stock.
+
+⭐ Frequently asked: 1, 2, 5, 6, 10, 15
