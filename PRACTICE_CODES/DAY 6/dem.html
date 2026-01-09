@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Check if a number is divisible by 5 and 11</title>
+  </head>
+  <body>
+    <h1 id="h1"></h1>
+    <input type="text" id="myNumber" />
+    <input type="submit" id="send" />
+
+    <script>
+      let num;
+      document.getElementById("send").onclick = function () {
+        num = document.getElementById("myNumber").value;
+
+        if (num % 5 == 0 && num % 11 == 0) {
+          document.getElementById(
+            "h1"
+          ).textContent = `${num} is divisible by 5 and 11`;
+        } else
+        {
+            document.getElementById("h1").textContent = `${num} is not divisible by 5 and 11`;
+        }
+      };
+    </script>
+  </body>
+</html>
